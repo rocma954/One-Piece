@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Pirates bay";
+    src: url(../Police/PiratesBay.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #1C3D5A;
+}
+
+h2 {
+    font-family: "pirates bay";
+    color: #D4AF37;
+}
+
+form {
+    width: 250px;
+    margin:  30px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: solid 10px;
+    border-radius: 10px;
+    font-family: "Pirates bay";
+}
+
+#en-tête {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#en-tête p {
+    width: 500px;
+    margin-left: 40px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+#terms {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    width: 25px;
+}
+
+.terms{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+table {
+    font-family: "Pirates bay";
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #F6E8C3;
+    margin-left: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gauche {
+    margin: 10px;
+    width: 700px;
+    display: flex;
+}
+
+.droite{
+    margin: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin-left: auto;
+}
+
+#son {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tableau {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ligne1, .ligne2, #texte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.ligne1 div, .ligne2 div{
+    width: 200px;
+}
+
+.ligne1 img, .ligne2 img{
+    width: 200px;
+}
+
+.ligne2,#bateau, #mechant{
+    margin-bottom: 150px;
+}
+
+#texte p{
+    width: 800px;
+}
+
+#texte img{
+    height: 250px;
+}
+
+#bateau{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+#bateau p{
+    width: 500px;
+}
+
+#bateau img{
+    width: 600px;
+}
+
+.personnages {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.personnages:hover {
+    transform: scale(1.1); /* Agrandir légèrement l'image */
+    opacity: 0.8; /* Réduire légèrement l'opacité */
+}
